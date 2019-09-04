@@ -4,7 +4,9 @@
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
+    width: 90%;
+    height: 200px;
+    
 }
 
 .user-img {
@@ -20,7 +22,34 @@
 }
 .user-info {
     display: flex;
+    
+    
+    
+}
+
+.bio {
+    width: 33.33%;
+    display: flex;
     flex-direction: column;
-    padding: 2px 16px;
-    max-width: 80%;
+    /* background-color: green; */
+}
+
+.img {
+    width: 33.33%;
+    
+    /* background-color: red; */
+}
+.chart-followers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+    width: 33.33%;
+}
+
+.chart {
+    
+    width: 100%;
+    height: 60px;
+    
 }

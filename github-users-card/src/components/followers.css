@@ -1,4 +1,45 @@
-.followers-container {
-    background-color: aqua;
-   display: flex;
+.follower {
+    background-image: linear-gradient(white, #24292E );
+    margin: 0 auto;
+    width: 48%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+}
+.img-container {
+    height: 50.33%;
+}
+
+.info-container {
+    height: 25.33%;
+}
+
+
+.follower-img {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 200px;
+    box-shadow: 0 1px 3px #0366D6, 0 5px 6px #0366D6;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    position: relative;
+
+}
+
+.chart-conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 25.33%;
+}
+
+.follower-chart {
+    
+    width: 100%;
+    height: 60px;
+    
 }

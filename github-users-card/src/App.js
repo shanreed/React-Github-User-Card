@@ -45,11 +45,13 @@ class App extends React.Component {
       <div className="App">
         <User data = {this.state} />
         <h1>FOLLOWERS</h1>
+        <div className = 'followers-container'>
         {this.state.followers
           ? this.state.followers.map(person => {
               return <Followers user={person} key={person.login}/>;
             })
           : null}
+          </div>
 
       </div>
     );
