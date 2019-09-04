@@ -43,7 +43,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello</h1>
         <User data = {this.state} />
         {this.state.followers
           ? this.state.followers.map(person => {

@@ -1,0 +1,24 @@
+.user-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.user-img {
+    margin-top: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    height: 200px;
+    box-shadow: 0 1px 3px #0366D6, 0 5px 6px #0366D6;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    position: relative;
+
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 16px;
+}
