@@ -11,7 +11,11 @@ console.log(props)
             <img  className = 'user-img' src = {props.data.user.avatar_url}  alt = 'user' />
             <div className = 'user-info'>
             {props.data.user.name}
+            {props.data.user.company}
+            {props.data.user.bio}
             <img src={`http://ghchart.rshah.org/${props.data.user.login}`} alt = 'chart' />
+            {props.data.user.followers} followers
+            Following{props.data.user.following}
             </div>
         </div>
     )

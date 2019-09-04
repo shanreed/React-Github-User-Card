@@ -44,6 +44,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <User data = {this.state} />
+        <h1>FOLLOWERS</h1>
         {this.state.followers
           ? this.state.followers.map(person => {
               return <Followers user={person} key={person.login}/>;

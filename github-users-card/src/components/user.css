@@ -1,4 +1,5 @@
 .user-container {
+    background-image: linear-gradient(white, #24292E );
     margin: 0 auto;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -21,4 +22,5 @@
     display: flex;
     flex-direction: column;
     padding: 2px 16px;
+    max-width: 80%;
 }
